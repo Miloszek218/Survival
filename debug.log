@@ -1,0 +1,4 @@
+[1028/124751.057:ERROR:file_io.cc(134)] WriteFile: Za ma³o miejsca na dysku. (0x70)
+[1028/124751.060:ERROR:filesystem_win.cc(148)] DeleteFile C:\Users\MiÅ‚osz\AppData\Local\Google\Chrome\User Data\Crashpad\reports\736068db-62a9-4e99-99b9-a3e313b5002c.dmp: Proces nie mo¿e uzyskaæ dostêpu do pliku, poniewa¿ jest on u¿ywany przez inny proces. (0x20)
+[1028/124752.886:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: Potok zosta³ zakoñczony. (0x6D)
+[1028/124901.099:ERROR:filesystem_win.cc(148)] DeleteFile C:\Users\MiÅ‚osz\AppData\Local\Google\Chrome\User Data\Crashpad\reports\4b61993b-af40-46c9-a4f4-177b0634d99b.dmp: Proces nie mo¿e uzyskaæ dostêpu do pliku, poniewa¿ jest on u¿ywany przez inny proces. (0x20)
