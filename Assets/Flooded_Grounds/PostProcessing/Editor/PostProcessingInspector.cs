@@ -92,7 +92,6 @@ namespace UnityEditor.PostProcessing
             {
                 new HistogramMonitor(),
                 new WaveformMonitor(),
-                new ParadeMonitor(),
                 new VectorscopeMonitor()
             };
 
