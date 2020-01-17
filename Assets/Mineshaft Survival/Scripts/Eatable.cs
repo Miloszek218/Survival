@@ -52,7 +52,8 @@ public class Eatable : MonoBehaviour {
         {
             emptyCan.SetActive(false);
             fullCan.SetActive(true);
-            objMan.alive = 1;
+            if(objMan)
+                objMan.alive = 1;
         }
 
 

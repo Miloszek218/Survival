@@ -1,9 +1,8 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using System;
+using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
-using UnityStandardAssets.Characters.FirstPerson;
 
 public class LifeStats : MonoBehaviour {
 
@@ -26,7 +25,11 @@ public class LifeStats : MonoBehaviour {
     {
         StartCoroutine(save());
         StartCoroutine(lowerStats());
+        //LoadStatistics();
+    }
 
+    private void LoadStatistics()
+    {
         if (PlayerPrefs.GetFloat("Health") != 0)
         {
             Health = PlayerPrefs.GetFloat("Health");
@@ -56,7 +59,6 @@ public class LifeStats : MonoBehaviour {
         {
             Hunger = 1000f;
         }
-
     }
 
     public void Respawn()

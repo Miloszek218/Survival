@@ -52,7 +52,7 @@ public class LocationSaver : MonoBehaviour {
         Pos.Set(Xpos, Ypos, Zpos);
         transform.position = Pos;
 
-        Debug.Log("Loaded " + transform.name + "'s Location " + Xpos + " " + Ypos + " " + Zpos);
+        Debug.Log("Loaded " + transform.name + "'s Location " + Xpos + " " + Ypos + " " + Zpos + "\n");
     }
 
 
@@ -106,7 +106,7 @@ public class LocationSaver : MonoBehaviour {
         Rot = Quaternion.Euler(Xrot, Yrot, Zrot);
         transform.rotation = Rot;
 
-        Debug.Log("Loaded " + transform.name + "'s Rotation " + Xrot + " " + Yrot + " " + Zrot);
+        Debug.Log("Loaded " + transform.name + "'s Rotation " + Xrot + " " + Yrot + " " + Zrot + "\n");
     }
 
 
