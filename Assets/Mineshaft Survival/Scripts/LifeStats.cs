@@ -78,6 +78,7 @@ public class LifeStats : MonoBehaviour {
             Cursor.lockState = CursorLockMode.None;
             Cursor.visible = true;
             gameObject.GetComponent<MovingController>().enabled = false;
+        
         }
         else
         {
