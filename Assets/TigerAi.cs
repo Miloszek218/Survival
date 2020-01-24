@@ -33,7 +33,7 @@ public class TigerAi : MonoBehaviour
             case State.GoToPlayer:
                 animator.SetFloat("speed", 1);
                 transform.LookAt(player);
-                rigidbody.velocity = transform.forward *1f;
+                rigidbody.velocity = transform.forward * 1f;
                 if (Vector3.Distance(transform.position, player.position) > 10f)
                     state = State.Idle;
                 if (Vector3.Distance(transform.position, player.position) < 3f)
