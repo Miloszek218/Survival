@@ -7,6 +7,90 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 114609455463962856, guid: ce2f537beaeb66544a7a5f1d503880e0,
+        type: 3}
+      propertyPath: m_receiptItems.Array.size
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 114609455463962856, guid: ce2f537beaeb66544a7a5f1d503880e0,
+        type: 3}
+      propertyPath: m_isLiftable
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114609455463962856, guid: ce2f537beaeb66544a7a5f1d503880e0,
+        type: 3}
+      propertyPath: m_isVisibleInHands
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114609455463962856, guid: ce2f537beaeb66544a7a5f1d503880e0,
+        type: 3}
+      propertyPath: m_name
+      value: Bridge
+      objectReference: {fileID: 0}
+    - target: {fileID: 114609455463962856, guid: ce2f537beaeb66544a7a5f1d503880e0,
+        type: 3}
+      propertyPath: m_prefab
+      value: Bridge
+      objectReference: {fileID: 0}
+    - target: {fileID: 114609455463962856, guid: ce2f537beaeb66544a7a5f1d503880e0,
+        type: 3}
+      propertyPath: m_sprite
+      value: bridge
+      objectReference: {fileID: 0}
+    - target: {fileID: 114609455463962856, guid: ce2f537beaeb66544a7a5f1d503880e0,
+        type: 3}
+      propertyPath: m_receiptItems.Array.data[2]
+      value: 
+      objectReference: {fileID: 114609455463962856, guid: 8f9202f52ea867341a3284ccd02b27de,
+        type: 3}
+    - target: {fileID: 114609455463962856, guid: ce2f537beaeb66544a7a5f1d503880e0,
+        type: 3}
+      propertyPath: m_receiptItems.Array.data[3]
+      value: 
+      objectReference: {fileID: 114609455463962856, guid: 8f9202f52ea867341a3284ccd02b27de,
+        type: 3}
+    - target: {fileID: 114609455463962856, guid: ce2f537beaeb66544a7a5f1d503880e0,
+        type: 3}
+      propertyPath: m_receiptItems.Array.data[4]
+      value: 
+      objectReference: {fileID: 114609455463962856, guid: 8f9202f52ea867341a3284ccd02b27de,
+        type: 3}
+    - target: {fileID: 114609455463962856, guid: ce2f537beaeb66544a7a5f1d503880e0,
+        type: 3}
+      propertyPath: m_receiptItems.Array.data[0]
+      value: 
+      objectReference: {fileID: 114609455463962856, guid: 17b5c6a569c52044b8efc49b74611c7b,
+        type: 3}
+    - target: {fileID: 114609455463962856, guid: ce2f537beaeb66544a7a5f1d503880e0,
+        type: 3}
+      propertyPath: m_receiptItems.Array.data[5]
+      value: 
+      objectReference: {fileID: 114609455463962856, guid: 8f9202f52ea867341a3284ccd02b27de,
+        type: 3}
+    - target: {fileID: 114609455463962856, guid: ce2f537beaeb66544a7a5f1d503880e0,
+        type: 3}
+      propertyPath: m_receiptItems.Array.data[6]
+      value: 
+      objectReference: {fileID: 114609455463962856, guid: 8f9202f52ea867341a3284ccd02b27de,
+        type: 3}
+    - target: {fileID: 114609455463962856, guid: ce2f537beaeb66544a7a5f1d503880e0,
+        type: 3}
+      propertyPath: m_receiptItems.Array.data[7]
+      value: 
+      objectReference: {fileID: 114609455463962856, guid: 8f9202f52ea867341a3284ccd02b27de,
+        type: 3}
+    - target: {fileID: 114609455463962856, guid: ce2f537beaeb66544a7a5f1d503880e0,
+        type: 3}
+      propertyPath: m_receiptItems.Array.data[8]
+      value: 
+      objectReference: {fileID: 114609455463962856, guid: 8f9202f52ea867341a3284ccd02b27de,
+        type: 3}
+    - target: {fileID: 114609455463962856, guid: ce2f537beaeb66544a7a5f1d503880e0,
+        type: 3}
+      propertyPath: m_receiptItems.Array.data[9]
+      value: 
+      objectReference: {fileID: 114609455463962856, guid: 8f9202f52ea867341a3284ccd02b27de,
+        type: 3}
     - target: {fileID: 1969811992255640, guid: ce2f537beaeb66544a7a5f1d503880e0, type: 3}
       propertyPath: m_Name
       value: Bridge
@@ -55,89 +139,5 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 114609455463962856, guid: ce2f537beaeb66544a7a5f1d503880e0,
-        type: 3}
-      propertyPath: m_receiptItems.Array.size
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 114609455463962856, guid: ce2f537beaeb66544a7a5f1d503880e0,
-        type: 3}
-      propertyPath: m_isLiftable
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 114609455463962856, guid: ce2f537beaeb66544a7a5f1d503880e0,
-        type: 3}
-      propertyPath: m_isVisibleInHands
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 114609455463962856, guid: ce2f537beaeb66544a7a5f1d503880e0,
-        type: 3}
-      propertyPath: m_name
-      value: Bridge
-      objectReference: {fileID: 0}
-    - target: {fileID: 114609455463962856, guid: ce2f537beaeb66544a7a5f1d503880e0,
-        type: 3}
-      propertyPath: m_prefab
-      value: Bridge
-      objectReference: {fileID: 0}
-    - target: {fileID: 114609455463962856, guid: ce2f537beaeb66544a7a5f1d503880e0,
-        type: 3}
-      propertyPath: m_sprite
-      value: bridge
-      objectReference: {fileID: 0}
-    - target: {fileID: 114609455463962856, guid: ce2f537beaeb66544a7a5f1d503880e0,
-        type: 3}
-      propertyPath: m_receiptItems.Array.data[2]
-      value: 
-      objectReference: {fileID: 114609455463962856, guid: 17b5c6a569c52044b8efc49b74611c7b,
-        type: 3}
-    - target: {fileID: 114609455463962856, guid: ce2f537beaeb66544a7a5f1d503880e0,
-        type: 3}
-      propertyPath: m_receiptItems.Array.data[3]
-      value: 
-      objectReference: {fileID: 114609455463962856, guid: 17b5c6a569c52044b8efc49b74611c7b,
-        type: 3}
-    - target: {fileID: 114609455463962856, guid: ce2f537beaeb66544a7a5f1d503880e0,
-        type: 3}
-      propertyPath: m_receiptItems.Array.data[4]
-      value: 
-      objectReference: {fileID: 114609455463962856, guid: 17b5c6a569c52044b8efc49b74611c7b,
-        type: 3}
-    - target: {fileID: 114609455463962856, guid: ce2f537beaeb66544a7a5f1d503880e0,
-        type: 3}
-      propertyPath: m_receiptItems.Array.data[0]
-      value: 
-      objectReference: {fileID: 114609455463962856, guid: 17b5c6a569c52044b8efc49b74611c7b,
-        type: 3}
-    - target: {fileID: 114609455463962856, guid: ce2f537beaeb66544a7a5f1d503880e0,
-        type: 3}
-      propertyPath: m_receiptItems.Array.data[5]
-      value: 
-      objectReference: {fileID: 114609455463962856, guid: 8f9202f52ea867341a3284ccd02b27de,
-        type: 3}
-    - target: {fileID: 114609455463962856, guid: ce2f537beaeb66544a7a5f1d503880e0,
-        type: 3}
-      propertyPath: m_receiptItems.Array.data[6]
-      value: 
-      objectReference: {fileID: 114609455463962856, guid: 8f9202f52ea867341a3284ccd02b27de,
-        type: 3}
-    - target: {fileID: 114609455463962856, guid: ce2f537beaeb66544a7a5f1d503880e0,
-        type: 3}
-      propertyPath: m_receiptItems.Array.data[7]
-      value: 
-      objectReference: {fileID: 114609455463962856, guid: 8f9202f52ea867341a3284ccd02b27de,
-        type: 3}
-    - target: {fileID: 114609455463962856, guid: ce2f537beaeb66544a7a5f1d503880e0,
-        type: 3}
-      propertyPath: m_receiptItems.Array.data[8]
-      value: 
-      objectReference: {fileID: 114609455463962856, guid: 8f9202f52ea867341a3284ccd02b27de,
-        type: 3}
-    - target: {fileID: 114609455463962856, guid: ce2f537beaeb66544a7a5f1d503880e0,
-        type: 3}
-      propertyPath: m_receiptItems.Array.data[9]
-      value: 
-      objectReference: {fileID: 114609455463962856, guid: 8f9202f52ea867341a3284ccd02b27de,
-        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ce2f537beaeb66544a7a5f1d503880e0, type: 3}
