@@ -471,7 +471,7 @@ MonoBehaviour:
   recoilLeft: 0
   recoilUp: 1.5
   fireClip: {fileID: 8300000, guid: 4912d5c56ce571e4fbad7af6de655772, type: 3}
-  emptyClip: {fileID: 8300000, guid: b6bc9198c8e32e749a9bb3f967aee671, type: 3}
+  emptyClip: {fileID: 0}
   reloadClip: {fileID: 8300000, guid: cc03a3bc3d3003c428240bcd6e12c487, type: 3}
   source: {fileID: 8248388}
   testShootEffect: 0

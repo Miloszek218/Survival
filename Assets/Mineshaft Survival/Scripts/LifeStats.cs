@@ -114,6 +114,11 @@ public class LifeStats : MonoBehaviour {
         Debug.Log("Player Stats saved");
         StartCoroutine(save());
     }
+    public void Hurt(float amount)
+    {
+        Health -= amount;
+    }
+
     IEnumerator lowerStats() //decrease stats like thirst and hunger
     {
         yield return new WaitForSeconds(2);
@@ -124,7 +129,7 @@ public class LifeStats : MonoBehaviour {
         }
         else
         {
-            Thirst -= 0.8f;//Amount of thirst that should be removed every 2 seconds
+            Thirst -= 1.8f;//Amount of thirst that should be removed every 2 seconds
         }
 
         if (Hunger <= 1)
@@ -133,7 +138,7 @@ public class LifeStats : MonoBehaviour {
         }
         else
         {
-            Hunger -= 0.6f;//Amount of hunger that should be removed every 2 seconds
+            Hunger -= 1.6f;//Amount of hunger that should be removed every 2 seconds
         }
         StartCoroutine(lowerStats());
     }
