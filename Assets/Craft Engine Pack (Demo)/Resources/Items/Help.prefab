@@ -25,7 +25,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b1e3ebe88da1e24e89218c181a810f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  LoadLevel: main menu
+  LoadLevel: Victory
 --- !u!1001 &7816148627993422433
 PrefabInstance:
   m_ObjectHideFlags: 0
