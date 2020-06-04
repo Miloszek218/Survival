@@ -1,4 +1,4 @@
-﻿using System.Collections;
+﻿    using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using System.Xml;
@@ -175,13 +175,6 @@ public class Inventory : MonoBehaviour
         if (cell == m_selectedToolCell)
             m_controller.SelectedToolChangedHandler();
     }
-    public bool AreCompatibleArmorAndCellOnCursor(ArmorType type)
-    {
-        if (m_cellOnCursor == null)
-            return true;
-        Armor cursorArmor = Resources.Load<GameObject>("Prefabs/" + m_cellOnCursor.m_item.m_prefab).GetComponent<Armor>();
-        return cursorArmor != null && cursorArmor.m_armorType == type;
-    }
     #endregion
 
     void InitializeCell(CellRenderer renderer, List<Cell> list)
@@ -216,10 +209,6 @@ public class Inventory : MonoBehaviour
         foreach (CellRenderer child in m_backpack.GetComponentsInChildren<CellRenderer>())
         {
             InitializeCell(child, m_cells);
-        }
-        foreach(CellArmor child in m_equipment.GetComponentsInChildren<CellArmor>())
-        {
-            InitializeCell(child, m_equipmentCells);
         }
         foreach(CellCraft child in m_crafter.GetComponentsInChildren<CellCraft>())
         {

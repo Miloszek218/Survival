@@ -16,7 +16,7 @@ public class PlacableItem : MonoBehaviour {
     }
     void OnTriggerEnter(Collider collider)
     {
-        if (collider.gameObject.tag != "Terrain" && collider.gameObject != gameObject)
+        if (collider.gameObject.tag != "PlacementTerrain" && collider.gameObject != gameObject)
             m_intersectObjects.Add(collider);
     }
     void OnTriggerExit(Collider collider)

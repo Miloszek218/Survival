@@ -74,16 +74,6 @@ public class CraftCharacterController : MonoBehaviour
         CellRightClick(cell);
         CrafterAction();
     }
-    public void ArmorCellLeftClick(CellArmor cellRenderer)
-    {
-        if (m_inventory.AreCompatibleArmorAndCellOnCursor(cellRenderer.m_type))
-            CellLeftClick(cellRenderer.m_cell);
-    }
-    public void ArmorCellRightClick(CellArmor cellRenderer)
-    {
-        if (m_inventory.AreCompatibleArmorAndCellOnCursor(cellRenderer.m_type))
-            CellRightClick(cellRenderer.m_cell);
-    }
     public void CrafterButtonClick(CrafterButton button)
     {
         //if cursor items incompatible with button items -> exit

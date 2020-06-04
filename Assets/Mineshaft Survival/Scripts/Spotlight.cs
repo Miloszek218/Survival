@@ -30,28 +30,6 @@ public class Spotlight : MonoBehaviour {
         SpotID = GetInstanceID().ToString() + "SPOTLIGHT";
         Load();
     }
-
-    public void Update()
-    {
-        generator = GameObject.FindGameObjectWithTag("Generator");
-        distance = Vector3.Distance(gameObject.transform.position, generator.transform.position);
-
-        if (distance <= MaxDistance && Toggled == true && generator.GetComponent<Generator>().Toggled == true)
-        {
-            lightCube.material = LampOn;
-            Lights.SetActive(true);
-        }
-        else
-        {
-            Toggled = false;
-        }
-        if(Toggled == false)
-        {
-            lightCube.material = LampOff;
-            Lights.SetActive(false);
-        }
-    }
-
     public void Save()
     {
         if(Toggled)
