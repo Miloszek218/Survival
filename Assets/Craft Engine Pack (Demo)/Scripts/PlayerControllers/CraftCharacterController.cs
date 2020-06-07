@@ -26,7 +26,7 @@ public class CraftCharacterController : MonoBehaviour
         if (m_inventory.m_cellOnCursor == null) //empty cursor -> move all items in cell to cursor
         {
             m_inventory.MoveItemsFromCellToCursor(cell);
-        }
+        }  
         else //if some items are on cursor
         {
             if (cell.m_item == null) // emty cell -> move all items on cursor to cell

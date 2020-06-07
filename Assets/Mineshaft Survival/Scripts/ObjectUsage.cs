@@ -102,37 +102,6 @@ public class ObjectUsage : MonoBehaviour {
         }
         if(Physics.Raycast(ray, out hit, 2f))
         {
-            if(hit.transform.tag == "SpotLight")
-            {
-                Spotlight spotlight = hit.transform.GetComponent<Spotlight>();
-                SpotlightPanel.SetActive(true);
-                SpotDistanceSlider.value = spotlight.distance;
-                SpotDistanceSlider.maxValue = spotlight.MaxDistance;
-                if(spotlight.Toggled == true)
-                {
-                    SpotlightStatus.text = "Enabled";
-                    SpotlightStatus.color = Color.green;
-                }
-                else
-                {
-                    if(spotlight.distance > spotlight.MaxDistance)
-                    {
-                        SpotlightStatus.text = "Out of range";
-                        SpotlightStatus.color = Color.red;
-                    }
-                }
-
-                if(Input.GetKeyDown("e"))
-                {
-                    spotlight.Toggle();
-                    spotlight.Save();
-                }
-            }
-        }
-
-
-        if(Physics.Raycast(ray, out hit, 2f))
-        {
             if(hit.transform.tag == "Eatable" && hit.transform.GetComponent<Eatable>().FoodAmount > 1)
             {
                 EatPanel.SetActive(true);
