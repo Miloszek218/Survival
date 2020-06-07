@@ -23,12 +23,6 @@ public class ObjectUsage : MonoBehaviour {
     public SpringJoint joint;
     bool grabbing = false;
 
-    [Header("Generator Objects")]
-    public GameObject GeneratorPanel;
-    public GameObject RefillPanelGenerator;
-    public Slider GenFuelSlider;
-    public Text GeneratorStatus;
-
     [Header("Spotlight Objects")]
     public GameObject SpotlightPanel;
     public Slider SpotDistanceSlider;
@@ -218,10 +212,6 @@ public class ObjectUsage : MonoBehaviour {
             if(hit.transform.tag != "SpotLight")
             {
                 SpotlightPanel.SetActive(false);
-            }
-            if(hit.transform.tag != "Generator")
-            {
-                GeneratorPanel.SetActive(false);
             }
             if (hit.transform.tag != "DrinkAble")
             {

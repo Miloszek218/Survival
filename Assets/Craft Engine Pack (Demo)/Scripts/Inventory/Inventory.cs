@@ -65,7 +65,6 @@ public class Inventory : MonoBehaviour
     //containers
     public GameObject m_backpack;
     public GameObject m_tools;
-    public GameObject m_equipment;
     public GameObject m_crafter;
 
     //cellOnCursor
