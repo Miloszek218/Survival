@@ -9,7 +9,7 @@ public class LifeStats : MonoBehaviour {
 
 
     [Header("Stats")]
-    public float Health = 1000;
+    public float Health = 1000; 
     public float Thirst = 1000;
     public float Hunger = 1000;
 

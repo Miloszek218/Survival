@@ -26,7 +26,7 @@ public class CraftCharacterController : MonoBehaviour
         if (m_inventory.m_cellOnCursor == null) //empty cursor -> move all items in cell to cursor
         {
             m_inventory.MoveItemsFromCellToCursor(cell);
-        }
+        }  
         else //if some items are on cursor
         {
             if (cell.m_item == null) // emty cell -> move all items on cursor to cell
@@ -73,16 +73,6 @@ public class CraftCharacterController : MonoBehaviour
     {
         CellRightClick(cell);
         CrafterAction();
-    }
-    public void ArmorCellLeftClick(CellArmor cellRenderer)
-    {
-        if (m_inventory.AreCompatibleArmorAndCellOnCursor(cellRenderer.m_type))
-            CellLeftClick(cellRenderer.m_cell);
-    }
-    public void ArmorCellRightClick(CellArmor cellRenderer)
-    {
-        if (m_inventory.AreCompatibleArmorAndCellOnCursor(cellRenderer.m_type))
-            CellRightClick(cellRenderer.m_cell);
     }
     public void CrafterButtonClick(CrafterButton button)
     {
